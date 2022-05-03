@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44918227, g: 0.49925333, b: 0.5757127, a: 1}
+  m_IndirectSpecularColor: {r: 0.44918245, g: 0.4992538, b: 0.575713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 7dd02fa6a4f3a734a9a7fe50acbe07a2, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 716eea1056e750649b5665a7b0d90c13, type: 2}
 --- !u!4 &14003913 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7543230390402658780, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
@@ -195,7 +195,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1766
+  m_Name: pb_Mesh-1574
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -363,6 +363,14 @@ PrefabInstance:
     - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Name
       value: Long Shelf (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
@@ -774,6 +782,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Long Shelf (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1040,6 +1056,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Long Shelf (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1184,7 +1208,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21302
+  m_Name: pb_Mesh21030
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1381,7 +1405,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1732
+  m_Name: pb_Mesh-1540
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1932,7 +1956,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1756
+  m_Name: pb_Mesh-1564
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2113,12 +2137,12 @@ GameObject:
   - component: {fileID: 686091580}
   - component: {fileID: 686091579}
   - component: {fileID: 686091578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &686091578
 MeshCollider:
@@ -3214,7 +3238,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1690
+  m_Name: pb_Mesh-1498
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3468,7 +3492,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1700
+  m_Name: pb_Mesh-1508
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3805,6 +3829,14 @@ PrefabInstance:
     - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Name
       value: Long Shelf (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
@@ -4375,7 +4407,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1806
+  m_Name: pb_Mesh-1614
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4539,7 +4571,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21150
+  m_Name: pb_Mesh20882
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5445,6 +5477,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Long Shelf (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -5850,7 +5890,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1776
+  m_Name: pb_Mesh-1584
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6019,6 +6059,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Long Shelf (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6115,6 +6163,14 @@ PrefabInstance:
     - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Name
       value: Long Shelf (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
@@ -12958,7 +13014,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1796
+  m_Name: pb_Mesh-1604
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13520,6 +13576,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Long Shelf (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -13868,7 +13932,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1680
+  m_Name: pb_Mesh-1488
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14401,6 +14465,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Long Shelf (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -14493,7 +14565,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1786
+  m_Name: pb_Mesh-1594
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14896,6 +14968,14 @@ PrefabInstance:
     - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Name
       value: Long Shelf
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 520654131992994659, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1984107837691623059, guid: e4f585abe3548b646bd0d91eb262ee49, type: 3}
       propertyPath: m_Mesh

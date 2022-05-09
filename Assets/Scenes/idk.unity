@@ -4856,6 +4856,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1157801359}
+  - component: {fileID: 1157801361}
+  - component: {fileID: 1157801360}
   m_Layer: 0
   m_Name: Cans
   m_TagString: Untagged
@@ -4881,6 +4883,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1157801360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157801358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac70aacb92173d4ab26150d6c346e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuiOn: 0
+  Text: Press E to interact
+  BoxSize:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  customSkin: {fileID: 0}
+--- !u!65 &1157801361
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157801358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.435543, y: 3.393707, z: 5.9420323}
+  m_Center: {x: -3.3258214, y: 0.93567336, z: 0.7654488}
 --- !u!43 &1159192240
 Mesh:
   m_ObjectHideFlags: 0

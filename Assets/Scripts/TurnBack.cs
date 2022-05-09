@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 [ExecuteInEditMode]
 public class TurnBack : MonoBehaviour
 {
+	public AudioSource aSource;
 
 	[Space(10)]
 	[Header("Toggle for the gui on off")]
@@ -30,7 +31,9 @@ public class TurnBack : MonoBehaviour
 	// if this script is on an object with a collider display the Gui
 	void OnTriggerEnter()
 	{
+		print("1");
 		GuiOn = true;
+		
 	}
 
 
@@ -42,6 +45,8 @@ public class TurnBack : MonoBehaviour
 	void OnGUI()
 	{
 
+		
+
 		if (customSkin != null)
 		{
 			GUI.skin = customSkin;
@@ -49,8 +54,15 @@ public class TurnBack : MonoBehaviour
 
 		if (GuiOn == true)
 		{
+			if (Input.GetKeyDown(KeyCode.E))
+			{
+				aSource.Play();
+				print("ywtfasfass");
+				gameObject.SetActive(false);
+			}
+
 			// Make a group on the center of the screen
-			GUI.BeginGroup(new Rect((Screen.width - BoxSize.width) / 2, (Screen.height - BoxSize.height) / 2, BoxSize.width, BoxSize.height));
+			GUI.BeginGroup(new Rect((Screen.width - BoxSize.width) / 2 + 50, (Screen.height - BoxSize.height) / 2 +50, BoxSize.width, BoxSize.height));
 			// All rectangles are now adjusted to the group. (0,0) is the topleft corner of the group.
 
 			GUI.Label(BoxSize, Text);

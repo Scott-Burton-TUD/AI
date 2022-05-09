@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class TurnBack : MonoBehaviour
 {
 	public AudioSource aSource;
+	
+	public float adder;
 
 	[Space(10)]
 	[Header("Toggle for the gui on off")]
@@ -26,12 +28,18 @@ public class TurnBack : MonoBehaviour
 	[Tooltip("To edit the look of the text Go to Assets > Create > GUIskin. Add the new Guiskin to the Custom Skin proptery. If you select the GUIskin in your project tab you can now adjust the font, colour, size etc of the text")]
 	public GUISkin customSkin;
 
-
+	
+	Score score;
+	public GameObject UI;
+	void Awake()
+	{
+		score = UI.GetComponent<Score>();
+	}
 
 	// if this script is on an object with a collider display the Gui
 	void OnTriggerEnter()
 	{
-		print("1");
+		
 		GuiOn = true;
 		
 	}
@@ -57,8 +65,10 @@ public class TurnBack : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.E))
 			{
 				aSource.Play();
-				print("ywtfasfass");
+				
+				score.Points += adder;
 				gameObject.SetActive(false);
+
 			}
 
 			// Make a group on the center of the screen

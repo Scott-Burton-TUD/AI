@@ -101,7 +101,7 @@ public class TurnBack : MonoBehaviour
 				score.Points += adder;
 				gameObject.SetActive(false);
 				animator.SetBool("PICKUP", true);
-				Invoke("aniReset", 0.2f);
+				Invoke("aniReset", 0.5f);
 			}
 			
   

@@ -1610,6 +1610,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &167401839
 BoxCollider:
@@ -2383,6 +2385,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &248974495
 BoxCollider:
@@ -4166,6 +4170,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &645816560
 BoxCollider:
@@ -4509,6 +4515,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &677438521
 BoxCollider:
@@ -6035,6 +6043,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &745708142
 BoxCollider:
@@ -8758,6 +8768,7 @@ GameObject:
   - component: {fileID: 1157801361}
   - component: {fileID: 1157801360}
   - component: {fileID: 1157801362}
+  - component: {fileID: 1157801363}
   m_Layer: 0
   m_Name: Cans
   m_TagString: Untagged
@@ -8806,6 +8817,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1157801361
 BoxCollider:
@@ -8818,8 +8831,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.866321, y: 3.393707, z: 4.0540857}
-  m_Center: {x: -3.0412104, y: 0.93567336, z: 1.0680441}
+  m_Size: {x: 1.058691, y: 0.67073727, z: 0.891037}
+  m_Center: {x: -2.1373944, y: 0.6371448, z: 1.3793325}
 --- !u!82 &1157801362
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8916,6 +8929,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1157801363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157801358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6859155, y: 1, z: 3.622149}
+  m_Center: {x: -3.1010249, y: 0, z: 1.3110745}
 --- !u!43 &1159192240
 Mesh:
   m_ObjectHideFlags: 0
@@ -9449,6 +9475,7 @@ GameObject:
   - component: {fileID: 1200440681}
   - component: {fileID: 1200440680}
   - component: {fileID: 1200440679}
+  - component: {fileID: 1200440682}
   m_Layer: 0
   m_Name: Cans (1)
   m_TagString: Untagged
@@ -9593,6 +9620,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1200440681
 BoxCollider:
@@ -9605,8 +9634,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.866321, y: 3.393707, z: 4.0540857}
-  m_Center: {x: -3.0412104, y: 0.93567336, z: 1.0680441}
+  m_Size: {x: 1.1238613, y: 0.7361684, z: 0.7407346}
+  m_Center: {x: -2.1699815, y: 0.5463555, z: 1.4196324}
+--- !u!65 &1200440682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200440677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1845081, y: 4.533739, z: 2.8681874}
+  m_Center: {x: -3.5647244, y: -1.7668695, z: 0.9340937}
 --- !u!1001 &1213142401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11533,6 +11575,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1365677638
 BoxCollider:
@@ -11808,6 +11852,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1385055318
 BoxCollider:
@@ -19374,6 +19420,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1530840557
 BoxCollider:
@@ -19732,6 +19780,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1585685095
 BoxCollider:
@@ -20269,6 +20319,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1611360196
 BoxCollider:
@@ -20533,6 +20585,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1632818519
 BoxCollider:
@@ -20797,6 +20851,8 @@ MonoBehaviour:
     width: 200
     height: 100
   customSkin: {fileID: 11400000, guid: 8b8d13602522f4545b5c543e6abd8874, type: 2}
+  playerInZone: 0
+  playerLooking: 0
   UI: {fileID: 532445993}
 --- !u!65 &1662418778
 BoxCollider:

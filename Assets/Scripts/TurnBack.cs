@@ -28,6 +28,11 @@ public class TurnBack : MonoBehaviour
 	[Tooltip("To edit the look of the text Go to Assets > Create > GUIskin. Add the new Guiskin to the Custom Skin proptery. If you select the GUIskin in your project tab you can now adjust the font, colour, size etc of the text")]
 	public GUISkin customSkin;
 
+	//Check in zone;
+
+	public bool playerInZone;
+	public bool playerLooking;
+
 	
 	Score score;
 	public GameObject UI;
@@ -39,18 +44,41 @@ public class TurnBack : MonoBehaviour
 	// if this script is on an object with a collider display the Gui
 	void OnTriggerEnter()
 	{
-		
-		GuiOn = true;
+		playerInZone = true;
 		
 	}
 
+    private void OnMouseEnter()
+    {
+		playerLooking = true;
 
-	void OnTriggerExit()
+	}
+
+    private void OnMouseExit()
+    {
+		playerLooking = false;
+
+	}
+
+
+    void OnTriggerExit()
 	{
-		GuiOn = false;
+		playerInZone = false;
 	}
 
-	void OnGUI()
+    private void Update()
+    {
+        if( playerInZone && playerLooking == true)
+        {
+			GuiOn = true;
+		}
+        else
+        {
+			GuiOn = false;
+		}
+    }
+
+    void OnGUI()
 	{
 
 		

@@ -36,9 +36,13 @@ public class TurnBack : MonoBehaviour
 	
 	Score score;
 	public GameObject UI;
+	Animator animator;
+
+	public Animator playerAni;
 	void Awake()
 	{
 		score = UI.GetComponent<Score>();
+		animator = playerAni.GetComponent<Animator>();
 	}
 
 	// if this script is on an object with a collider display the Gui
@@ -81,7 +85,7 @@ public class TurnBack : MonoBehaviour
     void OnGUI()
 	{
 
-		
+		animator.GetBool("PICKUP");
 
 		if (customSkin != null)
 		{
@@ -93,11 +97,16 @@ public class TurnBack : MonoBehaviour
 			if (Input.GetKeyDown(KeyCode.E))
 			{
 				aSource.Play();
-				
+
 				score.Points += adder;
 				gameObject.SetActive(false);
-
+				animator.SetBool("PICKUP", true);
+				Invoke("aniReset", 0.2f);
 			}
+			
+  
+				
+			
 
 			// Make a group on the center of the screen
 			GUI.BeginGroup(new Rect((Screen.width - BoxSize.width) / 2 + 50, (Screen.height - BoxSize.height) / 2 +50, BoxSize.width, BoxSize.height));
@@ -113,4 +122,8 @@ public class TurnBack : MonoBehaviour
 
 	}
 
+	void aniReset()
+    {
+		animator.SetBool("PICKUP", false);
+	}
 }

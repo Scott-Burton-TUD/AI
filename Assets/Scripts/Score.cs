@@ -7,16 +7,26 @@ public class Score : MonoBehaviour
 {
     public float Points;
     public Text pointsDisplay;
-    
-    void Update()
-    { 
-        
-       print(Points);
-       
-      pointsDisplay.text = Points.ToString();
+    public GameObject Key;
 
-            
-        
+    private void Start()
+    {
+        Key.SetActive(false);
+    }
+    void Update()
+    {
+
+        print(Points);
+
+        pointsDisplay.text = Points.ToString();
+        if (Points >= 1000)
+        {
+            Spawn();
+        }
     }
 
+    void Spawn()
+    {
+            Key.SetActive(true);
+    }    
 }

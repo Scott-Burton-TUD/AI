@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Key
+  - Door
+  - InteractiveObject
   layers:
   - Default
   - TransparentFX
@@ -13,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Wall
-  - 
+  - Interact
   - 
   - 
   - 

@@ -8,6 +8,7 @@ public class Score : MonoBehaviour
     public float Points;
     public Text pointsDisplay;
     public GameObject Key;
+    
 
     private void Start()
     {
@@ -19,7 +20,7 @@ public class Score : MonoBehaviour
         print(Points);
 
         pointsDisplay.text = Points.ToString();
-        if (Points >= 1000)
+        if (Points >= 10000)
         {
             Spawn();
         }

@@ -12,6 +12,7 @@ namespace KeySystem
         [SerializeField] private Keys _keys = null;
 
         private KeyDoor doorObject;
+        private Keys key;
 
         private void Start()
         {
@@ -31,6 +32,7 @@ namespace KeySystem
             {
                 _keys.hasKey = true;
                 gameObject.SetActive(false);
+                
             }
         }
     }

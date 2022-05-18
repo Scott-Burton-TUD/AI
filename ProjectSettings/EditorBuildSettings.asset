@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Aaron.unity
     guid: 847c64e56a581ac4dae9021bddb4ab70
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: 02a051b144b224444941cfbce0b60b4c
   m_configObjects: {}

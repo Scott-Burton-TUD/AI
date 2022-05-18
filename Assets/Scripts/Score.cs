@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Score : MonoBehaviour
 {
     public float Points;
@@ -23,6 +23,10 @@ public class Score : MonoBehaviour
         if (Points >= 10000)
         {
             Spawn();
+        }
+        if(Points >= 200000)
+        {
+            SceneManager.LoadScene(2);
         }
     }
 

@@ -12,7 +12,7 @@ namespace KeySystem
         [SerializeField] private string excluseLayerName = null;
 
         private KeyItemController raycastedObject;
-        [SerializeField] private KeyCode openDoorKey = KeyCode.F;
+        [SerializeField] private KeyCode openDoorKey = KeyCode.E;
 
         [SerializeField] private Image crosshair = null;
         private bool isCrosshairActive;
